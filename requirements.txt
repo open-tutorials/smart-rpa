@@ -1,0 +1,7 @@
+PyAutoGUI ~= 0.9.53
+Pillow ~= 9.4.0
+easyocr ~= 1.6.2
+inflection ~= 0.5.1
+opencv-python == 4.5.5.64
+pyclipper ~= 1.3.0.post4
+numpy ~= 1.24.2
