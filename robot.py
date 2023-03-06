@@ -18,6 +18,7 @@ TOP_RIGHT = 2
 BOTTOM_RIGHT = 3
 BOTTOM_LEFT = 4
 RATIO = 2
+INITIAL_RATIO = 2
 COMMAND_KEY = 'command'
 CACHE_FOLDER = 'cache'
 
@@ -262,3 +263,9 @@ class Robot:
 
     def keyUp(self, key):
         pyautogui.keyUp(key)
+
+    def press(self, key):
+        pyautogui.press(key)
+
+    def write(self, text):
+        pyautogui.write(text, interval=.05)
